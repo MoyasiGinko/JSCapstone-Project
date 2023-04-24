@@ -88,6 +88,10 @@ body {
     color: #000;
 }
 
+.fa-brands {
+    color: #fff;
+}
+
 /* Overlay */
 .overlay-show {
     display: block;
@@ -259,7 +263,8 @@ body {
         display: none;
     }
 
-    .top-bar {
+    .top-bar,
+    .bottom-bar {
         display: none;
     }
 }
