@@ -400,4 +400,22 @@ body {
         cursor: pointer;
         border: 2px solid #ffffff00;
     }
+
+    .program-items {
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+      .program-items > div {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 13px;
+        text-align: center;
+    }
+
+    .box:hover {
+        /* background: #e1e1e1; */
+        border: 2px solid #ec5242;
+      }
 }
