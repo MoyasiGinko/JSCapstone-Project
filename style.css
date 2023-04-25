@@ -259,8 +259,8 @@ body {
 
 /* Program Section */
 #program {
-    padding-top: 31px;
-    padding-bottom: 31px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #282b32;
     color: #fff;
     background-image: url(asset/diamond.png);
@@ -289,6 +289,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -359,6 +361,55 @@ body {
     display: none;
   }
 
+/* Featured section */
+#featured {
+    padding-top: 31px;
+    padding-bottom: 31px;
+}
+
+#featured h2 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Speaker card */
+.speaker-info {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-rows: auto;
+    column-gap: 15px;
+    padding: 5px;
+  }
+  
+  .speaker-info span {
+    color: #f78c89;
+  }
+  
+  .speaker-info .dash {
+    background-color: #d9d9d9;
+    margin: 6px 0 13px 0;
+  }
+
+  .speaker-img-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .speaker-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #speaker-card-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(6, 1fr);
+    row-gap: 18px;
+  }
+
   /* Media queries */
 @media screen and (max-width: 767px) {
     #main-logo {
@@ -398,7 +449,7 @@ body {
     #program .see-btn:hover {
         color: #fafafa;
         cursor: pointer;
-        border: 2px solid #ffffff00;
+        transform: scale(1.01);
     }
 
     .program-items {
@@ -415,7 +466,25 @@ body {
     }
 
     .box:hover {
-        /* background: #e1e1e1; */
-        border: 2px solid #ec5242;
+        transform: scale(1.05);
+        box-shadow: inset 0 0 0 1px #ff4f38, 0 0 1px rgba(0, 0, 0, 0);
       }
+
+    /* Card section */
+    #speaker-card-container {
+        display: grid;
+        place-items: center;
+        width: 80%;
+        grid-template-columns: auto auto;
+        grid-template-rows: repeat(3, auto);
+        column-gap: 18px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+    #cards:hover {
+        transform: scale(1.01);
+        box-shadow: 0 0 5px #d0d0d0;
+        background-color: #d1d0d093;
+    }
 }
