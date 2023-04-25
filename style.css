@@ -257,6 +257,108 @@ body {
     flex-direction: column;
 }
 
+/* Program Section */
+#program {
+    padding-top: 31px;
+    padding-bottom: 31px;
+    background-color: #282b32;
+    color: #fff;
+    background-image: url(asset/diamond.png);
+  }
+  
+  #program h2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .das {
+    display: flex;
+    justify-content: center;
+  }
+
+  .dash {
+    background-color: #a04038;
+    width: 30px;
+    height: 3px;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 40px;
+  }
+  
+  .program-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .program-items > div {
+    display: grid;
+    grid-template-columns: 20% 20% 60%;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px 9px;
+    align-items: center;
+  }
+  
+  h6 {
+    color: #ff5438;
+    font-size: 15px;
+  }
+  
+  .btn {
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #222;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn span {
+    position: relative;
+    z-index: 1;
+  }
+
+  .btn:hover {
+    border: 2px solid #ffffff00;
+  }
+
+  .btn::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 490%;
+    width: 140%;
+    background: #ec5242;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+    transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  }
+  
+  .btn:hover::after {
+    -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+    transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  }
+  
+  #program a {
+    display: none;
+  }
+
   /* Media queries */
 @media screen and (max-width: 767px) {
     #main-logo {
@@ -276,5 +378,26 @@ body {
 
     .menu-text {
         display: block;
+    }
+
+    #join-btn {
+        display: none;
+    }
+
+    #program a {
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        font-size: 20px;
+        font-weight: 500;
+        color: #868686;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    
+    #program .see-btn:hover {
+        color: #fafafa;
+        cursor: pointer;
+        border: 2px solid #ffffff00;
     }
 }
