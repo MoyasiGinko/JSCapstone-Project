@@ -416,6 +416,10 @@ body {
     display: none;
   }
 
+  .copyright {
+    display: none;
+  }
+
   /* Media queries */
 @media screen and (max-width: 767px) {
     #main-logo {
@@ -523,4 +527,35 @@ body {
       .icons ul li{
         list-style: none;
       }
+
+    .copyright {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: space-between;
+        gap: 10px;
+        background-color: #fff;
+
+    }
+
+    .copyright-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .text-copyright {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .cr-logo {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 30%;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
 }
