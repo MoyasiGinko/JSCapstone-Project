@@ -436,6 +436,10 @@ body {
     .hamburger {
         display: none;
     }
+    .top-section {
+        /* position: fixed; */
+        width: 100%;
+    }
 
     .menu-text {
         display: block;
