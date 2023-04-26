@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url('about.css');
 
 * {
   box-sizing: border-box;
@@ -141,32 +142,32 @@ body {
 
   /* Hamburger */
 .hamburger {
-    position: absolute;
-    right: 20px;
-    z-index: 10;
-    cursor: pointer;
-    width: 20px;
-    height: 20px;
-    background: none;
-    border: none;
+  position: absolute;
+  left: 10px;
+  z-index: 10;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background: none;
+  border: none;
 }
   
 .hamburger-top,
 .hamburger-middle,
 .hamburger-bottom {
     position: absolute;
-    width: 20px;
-    height: 2px;
+    width: 24px;
+    height: 4px;
     background-color: #272a31;
     transition: all 0.5s;
 }
   
 .hamburger-middle {
-    transform: translateY(5px);
+    transform: translateY(8px);
 }
   
 .hamburger-bottom {
-    transform: translateY(10px);
+    transform: translateY(16px);
 }
 
   /* Transition hamburger to X when open */
@@ -177,6 +178,7 @@ body {
 .open .hamburger-top {
     transform: rotate(45deg) translateY(6px) translateX(6px);
     background-color: #fff;
+    bottom: 30px;
 }
   
 .open .hamburger-middle {
@@ -186,6 +188,7 @@ body {
 .open .hamburger-bottom {
     transform: rotate(-45deg) translateY(6px) translateX(-6px);
     background-color: #fff;
+    bottom: 30px;
 }
 
 /* Main page setup */
@@ -540,7 +543,6 @@ body {
         align-content: space-between;
         gap: 10px;
         background-color: #fff;
-
     }
 
     .copyright-img {
