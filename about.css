@@ -222,6 +222,18 @@
         display: block;
     }
 
+    .summits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .summit {
+        width: 40%;
+    }
+
+    .top-section {
+        position: fixed;
+    }
 
 }
 
