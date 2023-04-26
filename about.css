@@ -236,5 +236,9 @@
         position: fixed;
     }
 
+    #head-title {
+        font-size: 50px;
+    }
+
 }
 

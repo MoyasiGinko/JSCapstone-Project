@@ -195,11 +195,14 @@ body {
 /* Main page setup */
 #main-section {
     width: 100%;
-    min-height: 90vh;
+    min-height: 70vh;
     background-image: url(asset/mobile-background.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding: 0 3%;
+    padding-top: 14%;
+    padding-bottom: 14%;
+    padding-right: 4%;
+    padding-left: 4%;
 }
   
 .main {
@@ -565,4 +568,15 @@ body {
         padding-top: 25px;
         padding-bottom: 25px;
     }
+
+    #main-section {
+      padding-top: 14%;
+      padding-bottom: 14%;
+      padding-right: 16%;
+      padding-left: 5%;
+  }
+
+  #heading-text {
+    font-size: 50px;
+  }
 }
