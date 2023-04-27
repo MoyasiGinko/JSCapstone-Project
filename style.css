@@ -55,11 +55,7 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 5px 0px 5px 0px;
-    background-color: #4588a0;
-}
-
-.text-dec {
-    color: #f8f7fb;
+    background-color: #ffffff;
 }
 
 .menu-text {
@@ -92,6 +88,21 @@ body {
 
 .fa-brands {
     color: #fff;
+}
+
+#highlight-btn {
+  border: 2px solid #ec5242;
+  text-align: center;
+}
+
+.text-dec {
+  padding: 4px;
+  text-align: center;
+  color: #000000;
+}
+
+#nav-top {
+  color: #fff;
 }
 
 /* Overlay */
@@ -277,9 +288,7 @@ body {
     padding-bottom: 50px;
     background-color: #282b32;
     color: #fff;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(asset/main8.png);
+    background-image: url(asset/diamond.png);
   }
   
   #program h2 {
@@ -590,7 +599,17 @@ body {
     font-size: 50px;
   }
 
-  #program {
-    background-size: 100% 100%;
+  .nav-links li:hover {
+    transform: scale(1.1);
+  }
+
+  .text-dec:hover,
+  #nav-top:hover {
+    color: #ec5242;
+  }
+
+  #highlight-btn:hover {
+    background-color: #ec5242;
+    color: #fff;
   }
 }

@@ -240,5 +240,22 @@
         font-size: 50px;
     }
 
+    #heading-text {
+      font-size: 50px;
+    }
+  
+    .nav-links li:hover {
+      transform: scale(1.1);
+    }
+  
+    .text-dec:hover {
+      color: #ec5242;
+    }
+  
+    #highlight-btn:hover {
+      background-color: #ec5242;
+      color: #fff;
+    }
+
 }
 
