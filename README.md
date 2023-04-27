@@ -54,11 +54,10 @@ After you're finished please remove all the comments and instructions!
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-
 # 📖 [Capstone-Project] <a name="about-project"></a>
 
-
 **[Capstone]** is an initiative aimed at developing proficiency to use previously learnt knowledge in html, css and javascript to build an online website for a conference.
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -91,6 +90,7 @@ We have achieved this through the use of media queries and flexible layouts, whi
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 #### You can visit the live website from here
+
 - [Live Demo Link](https://MoyasiGinko.github.io/Capstone-Project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -180,13 +180,20 @@ I would like to thank the following individuals, specially Daniela Moreno and th
 
 I would like to thank Cindy Shin for her beautiful design [Live To Design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
-#### Microverse: 
+#### Microverse
+
 Thank you for providing valuable feedback and suggestions throughout the development process.
-#### Microverse Dashboard: 
+
+#### Microverse Dashboard
+
 The documentation and tutorials provided by this resource were extremely helpful in understanding the concepts and techniques used in this project.
-#### GitHub: 
+
+#### GitHub
+
 The GitHub Repo used in this project was instrumental in achieving Linters installation.
-#### Code Reviewer: 
+
+#### Code Reviewer
+
 The Code Reviewer provided support and encouragement throughout the development process, and we are grateful for their continued support.
 
 Without the help of these individuals and resources, this project would not have been possible. Thank you for your contributions and support!
