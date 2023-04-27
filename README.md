@@ -1,6 +1,6 @@
 # Capstone-Project
+
 AniverseStudio is a site for anime nerds. We showcase our latest features, news and events etc.
-# Portfolio 
 <a name="readme-top"></a>
 
 <!--
@@ -29,7 +29,7 @@ After you're finished please remove all the comments and instructions!
 -->
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <h3><b>Portfolio Project Readme</b></h3>
+  <h3><b>Capstone Project Readme</b></h3>
 
 </div>
 
@@ -54,11 +54,11 @@ After you're finished please remove all the comments and instructions!
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [Portfolio-Project] <a name="about-project"></a>
+
+# 📖 [Capstone-Project] <a name="about-project"></a>
 
 
-**[Portfolio-Project]** is an initiative aimed at developing proficiency in Figma-based user interface (UI) designs and building a personalized portfolio website. This project endeavors to showcase optimal design abilities and web development skills.
-
+**[Capstone]** is an initiative aimed at developing proficiency to use previously learnt knowledge in html, css and javascript to build an online website for a conference.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -79,9 +79,11 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
+- **[Interactive Mobile Menu]**
+- **[Dynamic Page]**
 - **[Responsive Design]**
 In this project, we have implemented responsive design to ensure that our application looks and functions correctly across various devices and screen sizes. This project uses a Mobile-first approach to ensure that it works responsive with smaller screen and scale up to meet the need of larger screens.
-We have achieved this through the use of media queries and flexible layouts, which adapt to the user's device and provide them with an optimal viewing experience. 
+We have achieved this through the use of media queries and flexible layouts, which adapt to the user's device and provide them with an optimal viewing experience.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,7 +91,7 @@ We have achieved this through the use of media queries and flexible layouts, whi
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 #### You can visit the live website from here
-- [Live Demo Link](https://MoyasiGinko.github.io/Portfolio-Site/)
+- [Live Demo Link](https://MoyasiGinko.github.io/Capstone-Project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,7 +112,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/MoyasiGinko/Portfolio-Site.git
+  git clone https://github.com/MoyasiGinko/Capstone-Project.git
 ```
 --->
 
@@ -145,17 +147,12 @@ Double-Click on the "index.html" file to open the web page.
 - LinkedIn: [@mahmudur-rahman-a8a151257](https://www.linkedin.com/in/mahmudur-rahman-a8a151257/)
 - Twitter: [@moyasi_ginko](https://twitter.com/moyasi_ginko)
 
-> 👤 **Gardimy Charles**
-- GitHub: [@Gardimy](https://github.com/Gardimy)
-- Twitter: [@gardyelontiga45](https://twitter.com/gardyelontiga45)
-- LinkedIn: [Gardimy charles](https://www.linkedin.com/in/gardimy-charles)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Accessibility Feature]**
+- [ ] **Animations and transitions**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -180,6 +177,9 @@ If you like this project then please give it a star and share with the person wh
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank the following individuals, specially Daniela Moreno and the resources for their contributions to this project:
+
+I would like to thank Cindy Shin for her beautiful design [Live To Design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+
 #### Microverse: 
 Thank you for providing valuable feedback and suggestions throughout the development process.
 #### Microverse Dashboard: 
