@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+/* Heading section */
+#heading-section {
+  width: 100%;
+  min-height: 70vh;
+  background-image: url(asset/about_bg_main.png);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: 25% 7%;
+  background-color: #f7f7f8;
+  padding-top: 150px;
+  padding-bottom: 8%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.head-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.head-container .head-top {
+  margin-bottom: 40px;
+}
+
+.head-text {
+  background-color: white;
+  font-size: 0.9rem;
+  color: #000;
+  padding: 24px 9.5px;
+}
+
+#head-contact {
+  padding: 25px 30px;
+  color: #5f5f5f;
+  font-size: 14px;
+  line-height: 1.5rem;
+  margin-bottom: -20px;
+}
+
+#head-contact a {
+  color: #2d2c2c;
+}
+
+#head-title {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-weight: 900;
+  font-size: 40px;
+  background-image: url(asset/h1-background.jpg);
+  background-repeat: repeat;
+  background-size: contain;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.head-top h3 {
+  color: #ec5242;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.mid-head h2 {
+  text-align: center;
+}
+
+#mid-info p {
+  color: #5f5f5f;
+  font-size: 14px;
+  line-height: 1.5rem;
+  text-align: center;
+  padding: 0 10px 10px 15px;
+  margin-top: -15px;
+  margin-bottom: 10px;
+}
+
+#mid-logo {
+  border: 1px solid #c6c6c6;
+  padding: 30px 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.mid-logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mid-logo-container img {
+  width: 50px;
+}
+
+#border-line {
+  padding-top: 40px;
+  border-top: 1px solid #c6c6c6;
+}
+
+.summits {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  gap: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.summit {
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.summit > div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 0, 0, 0.5);
+  color: #fff;
+}
+
+.inline-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#summit-1 {
+  background-image: url(asset/summit-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#summit-2 {
+  background-image: url(asset/summit-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#mob-sponsors {
+  display: block;
+  padding: 6% 10%;
+  padding-bottom: 60px;
+  background-color: #414246;
+  color: #fff;
+  margin-top: 30px;
+}
+
+#sponsors {
+  text-align: center;
+  width: 100%;
+}
+
+.mob-copyright img {
+  width: 60px;
+  height: 60px;
+}
+
+#sponsors img {
+  width: 80px;
+  height: 80px;
+  margin-right: 5%;
+  text-align: center;
+}
+
+.mob-icons ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.mob-icons ul li {
+  list-style: none;
+}
+
+.mob-copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  gap: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #fff;
+}
+
+#cop-info {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  #mob-sponsors {
+    display: none;
+  }
+
+  .mob-copyright {
+    background-color: #2d2c2c;
+    color: #fff;
+  }
+
+  #cop-info {
+    display: block;
+  }
+
+  .summits {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .summit {
+    width: 40%;
+  }
+
+  .top-section {
+    position: fixed;
+  }
+
+  #head-title {
+    font-size: 50px;
+  }
+
+  #heading-text {
+    font-size: 50px;
+  }
+
+  .nav-links li:hover {
+    transform: scale(1.1);
+  }
+
+  .text-dec:hover {
+    color: #ec5242;
+  }
+
+  #highlight-btn:hover {
+    background-color: #ec5242;
+    color: #fff;
+  }
+}
