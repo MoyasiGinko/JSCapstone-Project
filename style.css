@@ -15,6 +15,7 @@ body {
 .top-section {
     display: flex;
     flex-direction: column;
+    z-index: 7;
 }
 
 .top-bar {
@@ -23,7 +24,7 @@ body {
     justify-content: flex-end;
     align-content: space-between;
     padding: 8px 16px 8px;
-    background-color: #ec5242;
+    background-color: #000c0c;
 }
 
 .menu-text {
@@ -54,11 +55,11 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 5px 0px 5px 0px;
-    background-color: #c3bbbb;
+    background-color: #4588a0;
 }
 
 .text-dec {
-    color: #0f0243;
+    color: #f8f7fb;
 }
 
 .menu-text {
@@ -161,6 +162,7 @@ body {
     height: 4px;
     background-color: #272a31;
     transition: all 0.5s;
+    border: 1px solid #fff;
 }
   
 .hamburger-middle {
@@ -196,9 +198,9 @@ body {
 #main-section {
     width: 100%;
     min-height: 70vh;
-    background-image: url(asset/mobile-background.png);
+    background-image: url(asset/bg1.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     padding-top: 14%;
     padding-bottom: 14%;
     padding-right: 4%;
@@ -210,12 +212,15 @@ body {
     justify-content: start;
     align-items: start;
     gap: 30px;
+    background-color: rgba(107, 94, 142, 0.452);
+    padding: 3% 5% 20px 3%;
+    border-radius: 10px;
 }
 
 .main-text {
-    border: 5px solid white;
+    border: 1px solid white;
     padding: 17px 14px;
-    background-color: #fafafa;
+    background-color: rgba(107, 94, 142, 0.703);
 }
 
 .heading h3 {
@@ -235,11 +240,13 @@ body {
     color: transparent;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
 }
   
 #location h2 {
     font-size: 25px;
-    color: #595959;
+    color: #fff;
     font-weight: 900;
 }
   
@@ -250,7 +257,7 @@ body {
 #location p {
     font-size: 14px;
     font-weight: 700;
-    color: #868686;
+    color: #fff;
 }
   /* Global Classes */
 .flex-row {
@@ -270,7 +277,9 @@ body {
     padding-bottom: 50px;
     background-color: #282b32;
     color: #fff;
-    background-image: url(asset/diamond.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(asset/main8.png);
   }
   
   #program h2 {
@@ -305,7 +314,7 @@ body {
   .program-items > div {
     display: grid;
     grid-template-columns: 20% 20% 60%;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(54, 48, 48, 0.5);
     padding: 15px 9px;
     align-items: center;
   }
@@ -570,6 +579,7 @@ body {
     }
 
     #main-section {
+      background-size: 100% 100%;
       padding-top: 14%;
       padding-bottom: 14%;
       padding-right: 16%;
@@ -578,5 +588,9 @@ body {
 
   #heading-text {
     font-size: 50px;
+  }
+
+  #program {
+    background-size: 100% 100%;
   }
 }
