@@ -450,6 +450,10 @@ h6 {
   .bottom-bar {
     display: none;
   }
+
+  .stop-scrolling {
+    overflow: hidden;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -607,5 +611,11 @@ h6 {
   #highlight-btn:hover {
     background-color: #ec5242;
     color: #fff;
+  }
+
+  .overlay-show,
+  #mobile-menu,
+  #menu-btn-open {
+    display: none;
   }
 }
