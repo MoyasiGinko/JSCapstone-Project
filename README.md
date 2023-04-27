@@ -85,6 +85,8 @@ After you're finished please remove all the comments and instructions!
 In this project, we have implemented responsive design to ensure that our application looks and functions correctly across various devices and screen sizes. This project uses a Mobile-first approach to ensure that it works responsive with smaller screen and scale up to meet the need of larger screens.
 We have achieved this through the use of media queries and flexible layouts, which adapt to the user's device and provide them with an optimal viewing experience.
 
+- [Loom Video](https://www.loom.com/share/37c966fdad8f4ce6be4ed1aa15868c80)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
