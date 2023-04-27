@@ -28,9 +28,7 @@ body {
 }
 
 .menu-text {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  display: none;
 }
 
 .menu-text ul {
@@ -54,12 +52,8 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 5px 0px 5px 0px;
-  background-color: #ffffff;
-}
-
-.menu-text {
-  display: none;
+  padding: 5px 0 5px 0;
+  background-color: #fff;
 }
 
 .main-logo {
@@ -98,7 +92,7 @@ body {
 .text-dec {
   padding: 4px;
   text-align: center;
-  color: #000000;
+  color: #000;
 }
 
 #nav-top {
@@ -124,14 +118,14 @@ body {
   font-weight: 600;
   line-height: 20px;
 }
-  
+
 .mobile-menu-m ul {
   padding: 70px 15px 24px 45px;
   width: 100%;
   list-style-type: none;
   color: white;
 }
-  
+
 .mobile-menu-m {
   position: fixed;
   width: 100%;
@@ -164,7 +158,7 @@ body {
   background: none;
   border: none;
 }
-  
+
 .hamburger-top,
 .hamburger-middle,
 .hamburger-bottom {
@@ -408,11 +402,11 @@ h6 {
   column-gap: 15px;
   padding: 5px;
 }
-  
+
 .speaker-info span {
   color: #f78c89;
 }
-  
+
 .speaker-info .dash {
   background-color: #d9d9d9;
   margin: 6px 0 13px 0;
@@ -423,7 +417,7 @@ h6 {
   height: 100%;
   overflow: hidden;
 }
-  
+
 .speaker-img-container img {
   width: 100%;
   height: 100%;
@@ -468,7 +462,9 @@ h6 {
   }
 
   .menu-text {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
   }
 
   #join-btn {
@@ -553,7 +549,7 @@ h6 {
     gap: 20px;
   }
 
-  .icons ul li{
+  .icons ul li {
     list-style: none;
   }
 
